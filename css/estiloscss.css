@@ -1,0 +1,182 @@
+.footer .footer__lista {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-top: 20px;
+  font-weight: bold; }
+
+.footer .footer__item {
+  font-size: large;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 50px; }
+  .footer .footer__item .link {
+    color: #93afd7;
+    text-decoration: none; }
+
+@media only screen and (max-width: 600px) {
+  #homeServicios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px; }
+  #homeRedes {
+    text-align: center; }
+  #homeBranding {
+    text-align: center; }
+  #homeAnimacion {
+    text-align: center;
+    padding-bottom: 200px; }
+  #homeRedaccion {
+    text-align: center; }
+  #homeFoto {
+    text-align: center; }
+  #homeIlustracion {
+    text-align: center; } }
+
+@media only screen and (min-width: 600px) {
+  #homeServicios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    padding: 20px; }
+  #homeRedes {
+    text-align: center;
+    height: 10%; }
+  #homeBranding {
+    text-align: center;
+    height: 10%; }
+  #homeAnimacion {
+    text-align: center;
+    height: 10%; }
+  #homeRedaccion {
+    text-align: center;
+    height: 10%; }
+  #homeFoto {
+    text-align: center;
+    height: 10%; }
+  #homeIlustracion {
+    text-align: center;
+    height: 10%; } }
+
+@media only screen and (min-width: 992px) {
+  #homeServicios {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 50px; }
+  #homeRedes {
+    text-align: center;
+    height: 10%;
+    width: 30%;
+    padding-bottom: 50px; }
+  #homeBranding {
+    text-align: center;
+    height: 10%;
+    width: 30%;
+    padding-bottom: 50px; }
+  #homeAnimacion {
+    text-align: center;
+    height: 10%;
+    width: 30%;
+    padding-bottom: 50px; }
+  #homeRedaccion {
+    text-align: center;
+    height: 10%;
+    width: 30%; }
+  #homeFoto {
+    text-align: center;
+    height: 10%;
+    width: 30%; }
+  #homeIlustracion {
+    text-align: center;
+    height: 10%;
+    width: 30%; } }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+hr {
+  clear: left;
+  color: #520052; }
+
+h5 {
+  color: #ff7f00 !important;
+  font-family: 'Montserrat', bold; }
+
+p {
+  color: #929292 !important;
+  font-family: 'Montserrat', oblique;
+  font-size: medium; }
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    color: #4dbcd8;
+    font-size: 10px !important;
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
+  h3 {
+    color: #956cbb;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 30px;
+    text-align: center;
+    font-weight: bold; } }
+
+@media only screen and (min-width: 600px) {
+  h1 {
+    color: #4dbcd8;
+    padding-bottom: 10px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; }
+  h3 {
+    color: #956cbb;
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 30px;
+    text-align: center;
+    font-weight: bold; } }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    color: #4dbcd8;
+    font-size: 30px !important;
+    text-align: center;
+    font-family: montserrat; }
+  h3 {
+    color: #956cbb;
+    font-size: small;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 30px;
+    text-align: center;
+    font-weight: bold; } }
+
+h2 {
+  color: black;
+  margin-top: 1000px;
+  padding-top: 500px;
+  padding: 20px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: xx-small;
+  font-style: normal; }

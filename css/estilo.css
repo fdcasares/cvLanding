@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;    
+}
+
+
+a {
+     text-decoration: none;
+     color: black;
+ }
+
+
+
+h3{
+    color: rgb(149, 108, 187);
+    font-size: medium;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: 30px;
+    text-align: center;
+}
+
+
+hr{
+    clear: left;
+    color: rgb(82, 0, 82);
+}
+
+.imgGrilla{
+    display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            grid-template-rows: 100px 300px 100px 300px 100px 300px;
+            grid-template-areas: "titulouno titulouno titulouno titulouno"
+                                 "branding branding branding branding"
+                                 "titulodos titulodos titulodos titulodos" 
+                                 "redes redes redes redes"
+                                 "titulotres titulotres titulotres titulotres"
+                                 "anuncios anuncios anuncios anuncios";
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+#branding{
+    grid-area: branding;
+}
+
+#redes{
+    grid-area: redes;
+}
+
+#anuncios{
+    grid-area: anuncios;
+}
+
+h2{
+    color: rgb(89, 187, 252);
+    font-size: large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(210, 237, 255);
+    padding: 20px;
+    padding-left: 50px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+form{    
+    margin: 70px;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
